@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" type="image/png" href="cal-favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="Calc">
+        <div class="container mt-5">
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <input type="text" id="inputValue" class="align-right">
+                </div>
+                <div class="col-md-12 large-font">
+                    <input type="text" id="outputValue" placeholder="0">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>Standard Calculator</h5>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <button onclick="clearInput()">C</button>
+                    <button onclick="backspace()">CE</button>
+                    <button onclick="getNumber('%')">%</button>
+                    <button onclick="getNumber('/')">/</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="getNumber('7')" class="clwhite">7</button>
+                    <button onclick="getNumber('8')" class="clwhite">8</button>
+                    <button onclick="getNumber('9')" class="clwhite">9</button>
+                    <button onclick="getNumber('*')" >X</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="getNumber('4')" class="clwhite">4</button>
+                    <button onclick="getNumber('5')" class="clwhite">5</button>
+                    <button onclick="getNumber('6')" class="clwhite">6</button>
+                    <button onclick="getNumber('-')" >-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="getNumber('1')" class="clwhite">1</button>
+                    <button onclick="getNumber('2')" class="clwhite">2</button>
+                    <button onclick="getNumber('3')" class="clwhite">3</button>
+                    <button onclick="getNumber('+')">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="getNumber('0')" class="clwhite">0</button>
+                    <button onclick="getNumber('.')" class="clwhite">.</button>
+                    <button onclick="getNumber('^')" class="clwhite">^</button>
+                    <button onclick="getOutput()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</html>

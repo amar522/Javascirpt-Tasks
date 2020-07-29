@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/3774088/pexels-photo-3774088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    background-color: gainsboro!important;
+    border: 2px solid black;
+    border-style: inset !important;
+    border-radius: 4px;
+    width: 450px !important;
+    height: 670px !important;
+}
+
+#outputValue{
+    font-size: 50px !important;
+}
+.container input{
+    font-family: monospace !important;
+    font-size: 30px;
+    background-color: gainsboro !important;
+    color: black !important;
+    width: 100%;
+    height: 90px ;
+    padding: 5px; 
+    border: none;;
+}
+
+.container button{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 500;
+    width: 96px;
+    height: 70px;
+    margin: 2px;
+    border-radius: 2px;
+    border: none;
+    /* background-color: white !important; */
+
+}
+.clwhite{
+    background-color: #ffffff;
+}
+
+.container button:hover{
+    background-color: whitesmoke !important  ;
+}
+.container h5{
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: 800;
+    text-align: center;
+    padding: 5px;
+    padding-top: 8px;
+    margin:2px 2px;
+}
