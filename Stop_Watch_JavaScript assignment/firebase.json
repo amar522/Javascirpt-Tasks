@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "stopwatch-4a406",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

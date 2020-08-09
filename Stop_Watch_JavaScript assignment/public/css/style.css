@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #282828 !important;
+    /* background-image: linear-gradient(to bottom right, rgb(0, 200, 200), rgb(50, 200, 255)); */
+
+}
+.container {
+    text-align: center;
+    background-color: #0C0C0C;
+    width: 370px !important;
+    height: 670px !important;
+    margin-top: 20px;
+    border: 3px solid grey;
+    border-style: double !important;
+    border-radius: 20px;
+    box-shadow: -5px -5px 29px #4e4e4e,5px 5px 25px black;
+
+}
+.container h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: left !important;
+    color: gray;
+    margin: 6px 0px 0px 2px;
+    padding: 2px;
+
+}
+.outer{
+    text-align: center !important;
+    box-shadow: -5px -5px 10px #4e4e4e,5px 5px 10px black;
+    background-image: linear-gradient(to  right, black , #1b1b1b);
+    border-radius: 100%;
+    width: 195px;
+    height: 195px;
+    margin-left: 74px;
+    margin-top: 6px;
+    padding: 4px ;
+}
+.timerdiv{
+    border: 2px dotted grey;
+    border-radius: 100%;
+    width: 185px;
+    height: 185px;
+    
+}
+.timerdiv h2{
+    display: inline-block;
+    width: 25px;
+    color: #7A3749;
+    padding: 70px 0px 70px 0px;
+}
+.lapscontainer {
+    font-family: monospace;
+    color: grey;
+    width: 370px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.timerbtns button{
+    font-family: monospace;
+    text-align: left !important;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 25px;
+    background-image: linear-gradient(to  right, black , #1b1b1b);
+    box-shadow: 5px 5px 10px black;
+    color: grey;
+    border-style: none;
+    padding: 5px 16px;
+    border-radius: 4px;
+    margin-left: 15px;
+    
+}
+#start{
+    border-radius: 100%;
+    padding: 15px 6px;
+}
+
+.lapscontainer h3{
+    font-family: monospace;   
+    font-size: 17px;
+    font-weight: 600;
+    color: grey;
+    
+}
+#laps {
+    list-style-type: decimal-leading-zero;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    list-style-position: inside;
+    
+}
+
+#laps li {
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color:grey;
+    border-radius: 2px;
+    padding: 6px;
+    margin-left: 21px;
+    width: 300px;
+}
+
+.lapscontainer .lapround{
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.lapscontainer .lapno{
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    padding-right: 100px;
+}

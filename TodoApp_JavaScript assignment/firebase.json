@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "todoapp-f0b36",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
